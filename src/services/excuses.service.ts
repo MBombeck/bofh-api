@@ -26,13 +26,15 @@ export const TOTAL = excuses.length;
 
 export function getRandom(count: number): Excuse[] {
   const limit = Math.min(Math.max(1, count), excuses.length);
-  const indices = new Set<number>();
+  const indices = Array.from({ length: excuses.length }, (_, i) => i);
 
-  while (indices.size < limit) {
-    indices.add(Math.floor(Math.random() * excuses.length));
+  // Fisher-Yates shuffle (partial — only need `limit` elements)
+  for (let i = indices.length - 1; i > indices.length - 1 - limit; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
   }
 
-  return [...indices].map((i) => excuses[i]);
+  return indices.slice(-limit).map((i) => excuses[i]);
 }
 
 export function getById(id: number): Excuse {

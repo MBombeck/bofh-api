@@ -34,3 +34,9 @@ function shutdown(signal: string) {
 
 process.on('SIGTERM', () => shutdown('SIGTERM'));
 process.on('SIGINT', () => shutdown('SIGINT'));
+
+process.on('unhandledRejection', (reason) => {
+  logger.fatal({ reason }, 'unhandled rejection');
+  if (config.SENTRY_DSN) Sentry.captureException(reason);
+  process.exit(1);
+});

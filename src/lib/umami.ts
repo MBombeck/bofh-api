@@ -1,4 +1,4 @@
-import { config } from '../config.js';
+import { config, VERSION } from '../config.js';
 import { logger } from './logger.js';
 
 interface UmamiEvent {
@@ -10,7 +10,7 @@ interface UmamiEvent {
 const HEADERS = {
   'Content-Type': 'application/json',
   'Accept': 'application/json',
-  'User-Agent': 'Mozilla/5.0 (compatible; bofh-api/3.0.0)',
+  'User-Agent': `Mozilla/5.0 (compatible; bofh-api/${VERSION})`,
 };
 
 function send(body: unknown): void {

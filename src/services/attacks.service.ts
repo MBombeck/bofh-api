@@ -42,7 +42,15 @@ function classify(path: string): string | null {
   return null;
 }
 
+// In-memory cache to avoid re-parsing the log file on every request
+let cache: { attacks: Attack[]; sinceMinutes: number; expiresAt: number } | null = null;
+const CACHE_TTL_MS = 60_000; // 1 minute
+
 export async function getAttacks(sinceMinutes: number): Promise<{ attacks: Attack[]; total: number }> {
+  if (cache && cache.sinceMinutes === sinceMinutes && Date.now() < cache.expiresAt) {
+    return { attacks: cache.attacks, total: cache.attacks.length };
+  }
+
   const logPath = config.TRAEFIK_LOG_PATH;
 
   if (!existsSync(logPath)) {
@@ -95,5 +103,6 @@ export async function getAttacks(sinceMinutes: number): Promise<{ attacks: Attac
     }
   }
 
+  cache = { attacks, sinceMinutes, expiresAt: Date.now() + CACHE_TTL_MS };
   return { attacks, total: attacks.length };
 }

@@ -16,7 +16,7 @@
   <meta property="og:description" content="453 classic BOFH excuses as a free JSON API. No auth required.">
   <meta property="og:url" content="https://bofh.bombeck.io/">
   <meta property="og:site_name" content="BOFH Excuses API">
-  <meta property="og:image" content="https://bofh.bombeck.io/og-image.svg">
+  <meta property="og:image" content="https://bofh.bombeck.io/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BOFH Excuses API">
   <meta name="twitter:description" content="453 classic BOFH excuses as a free JSON API. No auth required.">
-  <meta name="twitter:image" content="https://bofh.bombeck.io/og-image.svg">
+  <meta name="twitter:image" content="https://bofh.bombeck.io/og-image.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -91,7 +91,7 @@
 
       <div class="terminal" role="application" aria-label="Interactive API terminal">
         <div class="terminal-chrome">
-          <div class="terminal-dots">
+          <div class="terminal-dots" aria-hidden="true">
             <span class="dot dot-red"></span>
             <span class="dot dot-yellow"></span>
             <span class="dot dot-green"></span>
@@ -294,14 +294,14 @@
       <p class="section-desc">Get a random excuse in your language of choice.</p>
 
       <div class="tabs" role="tablist">
-        <button class="tab active" role="tab" aria-selected="true" data-tab="curl">curl</button>
-        <button class="tab" role="tab" aria-selected="false" data-tab="javascript">JavaScript</button>
-        <button class="tab" role="tab" aria-selected="false" data-tab="python">Python</button>
-        <button class="tab" role="tab" aria-selected="false" data-tab="go">Go</button>
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-curl" id="tab-curl" data-tab="curl">curl</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-javascript" id="tab-javascript" data-tab="javascript">JavaScript</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-python" id="tab-python" data-tab="python">Python</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-go" id="tab-go" data-tab="go">Go</button>
       </div>
 
       <div class="tab-panels">
-        <div class="tab-panel active" id="panel-curl" role="tabpanel">
+        <div class="tab-panel active" id="panel-curl" role="tabpanel" aria-labelledby="tab-curl">
           <div class="code-block">
             <div class="code-header">
               <span>curl</span>
@@ -311,7 +311,7 @@
           </div>
         </div>
 
-        <div class="tab-panel" id="panel-javascript" role="tabpanel">
+        <div class="tab-panel" id="panel-javascript" role="tabpanel" aria-labelledby="tab-javascript">
           <div class="code-block">
             <div class="code-header">
               <span>JavaScript</span>
@@ -325,7 +325,7 @@ console.<span class="t-fn">log</span>(data.excuse);</code></pre>
           </div>
         </div>
 
-        <div class="tab-panel" id="panel-python" role="tabpanel">
+        <div class="tab-panel" id="panel-python" role="tabpanel" aria-labelledby="tab-python">
           <div class="code-block">
             <div class="code-header">
               <span>Python</span>
@@ -343,7 +343,7 @@ excuse = r.<span class="t-fn">json</span>()[<span class="t-str">"data"</span>][<
           </div>
         </div>
 
-        <div class="tab-panel" id="panel-go" role="tabpanel">
+        <div class="tab-panel" id="panel-go" role="tabpanel" aria-labelledby="tab-go">
           <div class="code-block">
             <div class="code-header">
               <span>Go</span>
@@ -374,7 +374,7 @@ fmt.<span class="t-fn">Println</span>(<span class="t-fn">string</span>(body))</c
       <div class="footer-content">
         <p>Built by <a href="https://github.com/MBombeck" target="_blank" rel="noopener">Marc Bombeck</a></p>
         <div class="footer-links">
-          <a href="https://github.com/MBombeck/bofh-api" target="_blank" rel="noopener" aria-label="GitHub Repository">
+          <a href="https://github.com/MBombeck/bofh" target="_blank" rel="noopener" aria-label="GitHub Repository">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
           </a>
         </div>

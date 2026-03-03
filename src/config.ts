@@ -1,4 +1,11 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
 import { z } from 'zod';
+
+const pkgPath = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'package.json');
+const pkg = JSON.parse(readFileSync(pkgPath, 'utf-8'));
+export const VERSION: string = pkg.version;
 
 const envSchema = z.object({
   PORT: z.coerce.number().default(3000),

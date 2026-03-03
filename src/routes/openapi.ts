@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { VERSION } from '../config.js';
 import * as excusesService from '../services/excuses.service.js';
 
 const router = Router();
@@ -7,7 +8,7 @@ const spec = {
   openapi: '3.1.0',
   info: {
     title: 'BOFH Excuses API',
-    version: '3.0.0',
+    version: VERSION,
     description: `453 classic Bastard Operator From Hell excuses, served as a free JSON API.\n\nSupports content negotiation: set \`Accept: text/plain\` to receive plain text instead of JSON.`,
     license: { name: 'MIT', url: 'https://github.com/MBombeck/bofh/blob/main/LICENSE' },
     contact: { name: 'Marc Bombeck', url: 'https://bombeck.io' },

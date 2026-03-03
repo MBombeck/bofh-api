@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { VERSION } from '../config.js';
 
 const router = Router();
 
@@ -7,7 +8,7 @@ router.get('/health', (_req, res) => {
   res.status(200).json({
     data: {
       status: 'ok',
-      version: '3.0.0',
+      version: VERSION,
       uptime: Math.floor(process.uptime()),
     },
     meta: null,
