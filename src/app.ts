@@ -14,6 +14,7 @@ import { notFoundHandler, errorHandler } from './middleware/error-handler.js';
 import healthRouter from './routes/health.js';
 import excusesRouter from './routes/excuses.js';
 import attacksRouter from './routes/attacks.js';
+import openapiRouter from './routes/openapi.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -105,6 +106,7 @@ export function createApp(): express.Express {
   app.use(healthRouter);
   app.use(excusesRouter);
   app.use(attacksRouter);
+  app.use(openapiRouter);
 
   // 10. 404
   app.use(notFoundHandler);

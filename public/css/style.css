@@ -178,6 +178,18 @@ a:focus-visible {
   text-align: center;
 }
 
+.hero-logo {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.hero-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  opacity: 0.9;
+}
+
 .hero-label {
   font-family: var(--font-mono);
   font-size: 0.8125rem;

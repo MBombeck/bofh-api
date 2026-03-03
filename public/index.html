@@ -61,6 +61,10 @@
   <!-- Hero -->
   <header class="hero">
     <div class="container">
+      <picture class="hero-logo">
+        <source media="(prefers-color-scheme: dark)" srcset="/logo-dark.png">
+        <img src="/logo.png" width="80" height="80" alt="BOFH Logo">
+      </picture>
       <p class="hero-label">Free JSON API &middot; No Auth Required</p>
       <h1>BOFH Excuses API</h1>
       <p class="hero-tagline">453 classic Bastard Operator From Hell excuses.<br>One endpoint. Instant nonsense.</p>
@@ -239,6 +243,20 @@
         <p>1,000 requests per 15 minutes per IP. Standard <code>RateLimit-*</code> headers are included in all responses. The <code>/health</code> endpoint is excluded.</p>
       </div>
 
+      <!-- Content Negotiation -->
+      <div class="info-card">
+        <h3>Plain Text Mode</h3>
+        <p>Set <code>Accept: text/plain</code> to get just the excuse text &mdash; perfect for shell scripts and CLI tools.</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Example</span>
+            <button class="copy-btn" aria-label="Copy to clipboard" data-copy='curl -H "Accept: text/plain" https://bofh.bombeck.io/v1/excuses/random'>Copy</button>
+          </div>
+          <pre><code>curl -H "Accept: text/plain" https://bofh.bombeck.io/v1/excuses/random
+<span class="t-str">→ Solar flares</span></code></pre>
+        </div>
+      </div>
+
       <!-- Errors -->
       <div class="info-card">
         <h3>Errors</h3>
@@ -259,6 +277,12 @@
             <tr><td>500</td><td>Internal error</td></tr>
           </tbody>
         </table>
+      </div>
+
+      <!-- OpenAPI -->
+      <div class="info-card">
+        <h3>OpenAPI Spec</h3>
+        <p>Full machine-readable API specification available at <a href="/openapi.json"><code>/openapi.json</code></a>. Import into Postman, Insomnia, or use for client generation.</p>
       </div>
     </div>
   </section>

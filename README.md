@@ -2,13 +2,15 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="public/logo-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="public/logo.png">
-    <img src="public/logo.png" width="200" height="200" alt="BOFH Excuses API">
+    <img src="public/logo.png" width="120" height="120" alt="BOFH Excuses API">
   </picture>
 </p>
 
+<h3 align="center">BOFH Excuses API</h3>
+
 <p align="center">
-  453 classic BOFH excuses, served as a free JSON API.<br>
-  <a href="https://bofh.bombeck.io">bofh.bombeck.io</a>
+  453 classic BOFH excuses as a free JSON API. No auth. No nonsense.<br>
+  <a href="https://bofh.bombeck.io"><strong>bofh.bombeck.io</strong></a> · <a href="https://bofh.bombeck.io/openapi.json">OpenAPI Spec</a>
 </p>
 
 <p align="center">
@@ -19,18 +21,14 @@
 
 ---
 
-## What is BOFH?
-
-The **Bastard Operator From Hell** (BOFH) is a fictional character created by Simon Travaglia in 1992. The BOFH is a rogue system administrator who takes out his anger on users with a wide repertoire of excuses for why things don't work. The original excuse list was compiled by Jeff Ballard.
-
-This API serves 453 classic BOFH excuses from the original collection.
-
 ## Quick Start
 
-**Get a random excuse:**
-
 ```bash
+# JSON (default)
 curl https://bofh.bombeck.io/v1/excuses/random
+
+# Plain text — just the excuse
+curl -H "Accept: text/plain" https://bofh.bombeck.io/v1/excuses/random
 ```
 
 ```json
@@ -53,7 +51,6 @@ console.log(data.excuse);
 
 ```python
 import requests
-
 r = requests.get("https://bofh.bombeck.io/v1/excuses/random")
 print(r.json()["data"]["excuse"])
 ```
@@ -67,17 +64,36 @@ body, _ := io.ReadAll(resp.Body)
 fmt.Println(string(body))
 ```
 
-## API Documentation
+### Shell one-liner
+
+```bash
+echo "Excuse: $(curl -sH 'Accept: text/plain' https://bofh.bombeck.io/v1/excuses/random)"
+```
+
+---
+
+## API Reference
 
 **Base URL:** `https://bofh.bombeck.io`
+**OpenAPI:** [`/openapi.json`](https://bofh.bombeck.io/openapi.json)
 
-All responses follow the envelope format `{ data, meta, error }`.
+All responses follow the envelope `{ data, meta, error }`.
+Set `Accept: text/plain` on any excuse endpoint to get raw text instead of JSON.
 
 ### Endpoints
 
-#### `GET /v1/excuses/random`
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/v1/excuses/random` | One random excuse |
+| `GET` | `/v1/excuses/random?count=N` | N random excuses (1–50) |
+| `GET` | `/v1/excuses/:id` | Excuse by ID (1–453) |
+| `GET` | `/v1/excuses` | All 453 excuses |
+| `GET` | `/health` | Health check |
+| `GET` | `/openapi.json` | OpenAPI 3.1 specification |
 
-Returns one random excuse.
+### Response Examples
+
+**Single excuse** — `GET /v1/excuses/random`
 
 ```json
 {
@@ -87,103 +103,67 @@ Returns one random excuse.
 }
 ```
 
-#### `GET /v1/excuses/random?count=N`
-
-Returns up to N random excuses (1–50).
-
-```bash
-curl "https://bofh.bombeck.io/v1/excuses/random?count=3"
-```
+**Multiple excuses** — `GET /v1/excuses/random?count=3`
 
 ```json
 {
   "data": [
     { "id": 112, "excuse": "clock speed" },
-    { "id": 7, "excuse": "Langstroth bees" },
-    { "id": 301, "excuse": "Cosmic rays" }
+    { "id": 7, "excuse": "Cosmic rays" },
+    { "id": 301, "excuse": "Failure to adjust for stripes" }
   ],
   "meta": { "count": 3, "total": 453 },
   "error": null
 }
 ```
 
-#### `GET /v1/excuses/:id`
+**Plain text** — `curl -H "Accept: text/plain" .../v1/excuses/random`
 
-Returns a specific excuse by ID (1–453).
-
-```bash
-curl https://bofh.bombeck.io/v1/excuses/42
+```
+Solar flares
 ```
 
-```json
-{
-  "data": { "id": 42, "excuse": "Solar flares" },
-  "meta": { "total": 453 },
-  "error": null
-}
-```
-
-#### `GET /v1/excuses`
-
-Returns all 453 excuses.
-
-#### `GET /health`
-
-Health check endpoint.
-
-```json
-{
-  "data": { "status": "ok", "version": "3.0.0", "uptime": 86400 },
-  "meta": null,
-  "error": null
-}
-```
-
-### Error Responses
-
-| Status | Meaning |
-|--------|---------|
-| 400 | Invalid parameters (e.g., non-numeric ID) |
-| 404 | Excuse not found / unknown endpoint |
-| 429 | Rate limit exceeded |
-| 500 | Internal server error |
+### Errors
 
 ```json
 {
   "data": null,
   "meta": null,
-  "error": { "code": "NOT_FOUND", "message": "excuse not found" }
+  "error": { "code": "NOT_FOUND", "message": "excuse #999 not found" }
 }
 ```
 
+| Status | Code | Meaning |
+|--------|------|---------|
+| 400 | `VALIDATION_ERROR` | Invalid parameters |
+| 404 | `NOT_FOUND` | Excuse or route not found |
+| 429 | `RATE_LIMITED` | Too many requests |
+| 500 | `INTERNAL_ERROR` | Server error |
+
 ### Rate Limiting
 
-- **1,000 requests** per 15-minute window per IP
-- Standard `RateLimit-*` headers included in responses
-- `/health` endpoint is excluded from rate limiting
+- **1,000 requests** per 15 minutes per IP
+- Standard `RateLimit-*` headers in all responses
+- `/health` is excluded from rate limiting
+
+---
 
 ## Self-Hosting
 
-### Docker (recommended)
+### Docker
 
 ```bash
-docker run -d \
-  -p 3000:3000 \
-  -e ATTACKS_API_KEY=your-secret-key \
-  ghcr.io/mbombeck/bofh:latest
+docker run -d -p 3000:3000 -e ATTACKS_API_KEY=your-secret ghcr.io/mbombeck/bofh:latest
 ```
 
-### Node.js
+### From Source
 
 ```bash
 git clone https://github.com/MBombeck/bofh.git
 cd bofh
-npm ci
-npm run build
-ATTACKS_API_KEY=your-secret-key npm start
+npm ci && npm run build
+ATTACKS_API_KEY=your-secret npm start
 ```
-
-The server starts on port 3000 by default.
 
 ### Environment Variables
 
@@ -191,28 +171,23 @@ The server starts on port 3000 by default.
 |----------|----------|---------|-------------|
 | `PORT` | No | `3000` | Server port |
 | `NODE_ENV` | No | `production` | Environment |
-| `ATTACKS_API_KEY` | Yes | — | API key for internal attack detection endpoint |
+| `ATTACKS_API_KEY` | Yes | — | Key for internal `/internal/attacks` endpoint |
 | `CORS_ORIGINS` | No | `*` | Allowed CORS origins (comma-separated) |
-| `LANDING_HOST` | No | `bofh.bombeck.io` | Hostname that serves the landing page |
-| `SENTRY_DSN` | No | — | Sentry/GlitchTip DSN for error tracking |
-| `UMAMI_URL` | No | — | Umami analytics URL |
-| `UMAMI_WEBSITE_ID` | No | — | Umami website ID |
-| `LOG_LEVEL` | No | `info` | Log level (debug, info, warn, error) |
+| `LANDING_HOST` | No | `bofh.bombeck.io` | Hostname for the landing page |
+| `SENTRY_DSN` | No | — | Sentry/GlitchTip DSN |
+| `LOG_LEVEL` | No | `info` | `debug` / `info` / `warn` / `error` |
 
-## Contributing
+---
 
-Contributions are welcome! Please open an issue or submit a pull request.
+## What is BOFH?
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Commit your changes
-4. Push to the branch and open a PR
+The **Bastard Operator From Hell** is a fictional rogue sysadmin created by [Simon Travaglia](https://en.wikipedia.org/wiki/Bastard_Operator_From_Hell) in 1992. The original excuse list of 453 entries was compiled by Jeff Ballard.
 
 ## Credits
 
 - **Simon Travaglia** — Creator of the Bastard Operator From Hell
 - **Jeff Ballard** — Original BOFH excuse list compiler
-- Built by [Marc Bombeck](https://github.com/MBombeck)
+- Built by [Marc Bombeck](https://bombeck.io)
 
 ## License
 
