@@ -219,6 +219,10 @@ a:focus-visible {
   font-family: var(--font-mono);
   font-size: 0.8125rem;
   color: var(--text-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 .hero-excuse-output {
@@ -234,7 +238,8 @@ a:focus-visible {
   background: none;
   padding: 0;
   color: var(--text-muted);
-  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 /* ========================================
@@ -571,7 +576,8 @@ a:focus-visible {
    Responsive
    ======================================== */
 @media (max-width: 640px) {
-  .hero-excuse { margin: 0 -0.5rem; border-radius: var(--radius); }
+  .hero-excuse { margin: 0 -0.5rem; border-radius: var(--radius); max-width: none; }
+  .hero-excuse-output code { font-size: 0.75rem; }
 
   .terminal-body {
     min-height: 220px;
