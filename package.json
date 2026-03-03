@@ -1,0 +1,30 @@
+{
+  "name": "bofh-api",
+  "version": "3.0.0",
+  "description": "BOFH Excuses API + Attack Detection for PewPew",
+  "homepage": "https://bofh.bombeck.io",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && cp -r src/data dist/data",
+    "start": "node dist/index.js",
+    "dev": "node --watch dist/index.js"
+  },
+  "dependencies": {
+    "@sentry/node": "^8.52.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "pino-pretty": "^13.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,2720 @@
+[
+  {
+    "id": 1,
+    "quote": "clock speed",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 2,
+    "quote": "solar flares",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 3,
+    "quote": "electromagnetic radiation from satellite debris",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 4,
+    "quote": "static from nylon underwear",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 5,
+    "quote": "static from plastic slide rules",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 6,
+    "quote": "global warming",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 7,
+    "quote": "poor power conditioning",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 8,
+    "quote": "static buildup",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 9,
+    "quote": "doppler effect",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 10,
+    "quote": "hardware stress fractures",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 11,
+    "quote": "magnetic interference from money/credit cards",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 12,
+    "quote": "dry joints on cable plug",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 13,
+    "quote": "we're waiting for [the phone company] to fix that line",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 14,
+    "quote": "sounds like a Windows problem, try calling Microsoft support",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 15,
+    "quote": "temporary routing anomaly",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 16,
+    "quote": "somebody was calculating pi on the server",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 17,
+    "quote": "fat electrons in the lines",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 18,
+    "quote": "excess surge protection",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 19,
+    "quote": "floating point processor overflow",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 20,
+    "quote": "divide-by-zero error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 21,
+    "quote": "POSIX compliance problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 22,
+    "quote": "monitor resolution too high",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 23,
+    "quote": "improperly oriented keyboard",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 24,
+    "quote": "network packets travelling uphill (use a carrier pigeon)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 25,
+    "quote": "Decreasing electron flux",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 26,
+    "quote": "first Saturday after first full moon in Winter",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 27,
+    "quote": "radiosity depletion",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 28,
+    "quote": "CPU radiator broken",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 29,
+    "quote": "It works the way the Wang did, what's the problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 30,
+    "quote": "positron router malfunction",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 31,
+    "quote": "cellular telephone interference",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 32,
+    "quote": "techtonic stress",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 33,
+    "quote": "piezo-electric interference",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 34,
+    "quote": "(l)user error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 35,
+    "quote": "working as designed",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 36,
+    "quote": "dynamic software linking table corrupted",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 37,
+    "quote": "heavy gravity fluctuation, move computer to floor rapidly",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 38,
+    "quote": "secretary plugged hairdryer into UPS",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 39,
+    "quote": "terrorist activities",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 40,
+    "quote": "not enough memory, go get system upgrade",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 41,
+    "quote": "interrupt configuration error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 42,
+    "quote": "spaghetti cable cause packet failure",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 43,
+    "quote": "boss forgot system password",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 44,
+    "quote": "bank holiday - system operating credits  not recharged",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 45,
+    "quote": "virus attack, luser responsible",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 46,
+    "quote": "waste water tank overflowed onto computer",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 47,
+    "quote": "Complete Transient Lockout",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 48,
+    "quote": "bad ether in the cables",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 49,
+    "quote": "Bogon emissions",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 50,
+    "quote": "Change in Earth's rotational speed",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 51,
+    "quote": "Cosmic ray particles crashed through the hard disk platter",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 52,
+    "quote": "Smell from unhygienic janitorial staff wrecked the tape heads",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 53,
+    "quote": "Little hamster in running wheel had coronary; waiting for replacement to be Fedexed from Wyoming",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 54,
+    "quote": "Evil dogs hypnotised the night shift",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 55,
+    "quote": "Plumber mistook routing panel for decorative wall fixture",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 56,
+    "quote": "Electricians made popcorn in the power supply",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 57,
+    "quote": "Groundskeepers stole the root password",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 58,
+    "quote": "high pressure system failure",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 59,
+    "quote": "failed trials, system needs redesigned",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 60,
+    "quote": "system has been recalled",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 61,
+    "quote": "not approved by the FCC",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 62,
+    "quote": "need to wrap system in aluminum foil to fix problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 63,
+    "quote": "not properly grounded, please bury computer",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 64,
+    "quote": "CPU needs recalibration",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 65,
+    "quote": "system needs to be rebooted",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 66,
+    "quote": "bit bucket overflow",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 67,
+    "quote": "descramble code needed from software company",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 68,
+    "quote": "only available on a need to know basis",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 69,
+    "quote": "knot in cables caused data stream to become twisted and kinked",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 70,
+    "quote": "nesting roaches shorted out the ether cable",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 71,
+    "quote": "The file system is full of it",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 72,
+    "quote": "Satan did it",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 73,
+    "quote": "Daemons did it",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 74,
+    "quote": "You're out of memory",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 75,
+    "quote": "There isn't any problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 76,
+    "quote": "Unoptimized hard drive",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 77,
+    "quote": "Typo in the code",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 78,
+    "quote": "Yes, yes, its called a design limitation",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 79,
+    "quote": "Look, buddy:  Windows 3.1 IS A General Protection Fault.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 80,
+    "quote": "That's a great computer you have there; have you considered how it would work as a BSD machine?",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 81,
+    "quote": "Please excuse me, I have to circuit an AC line through my head to get this database working.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 82,
+    "quote": "Yeah, yo mama dresses you funny and you need a mouse to delete files.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 83,
+    "quote": "Support staff hung over, send aspirin and come back LATER.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 84,
+    "quote": "Someone is standing on the ethernet cable, causing a kink in the cable",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 85,
+    "quote": "Windows 95 undocumented \"feature",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 86,
+    "quote": "Runt packets",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 87,
+    "quote": "Password is too complex to decrypt",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 88,
+    "quote": "Boss' kid fucked up the machine",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 89,
+    "quote": "Electromagnetic energy loss",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 90,
+    "quote": "Budget cuts",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 91,
+    "quote": "Mouse chewed through power cable",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 92,
+    "quote": "Stale file handle (next time use Tupperware(tm)!)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 93,
+    "quote": "Feature not yet implemented",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 94,
+    "quote": "Internet outage",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 95,
+    "quote": "Pentium FDIV bug",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 96,
+    "quote": "Vendor no longer supports the product",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 97,
+    "quote": "Small animal kamikaze attack on power supplies",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 98,
+    "quote": "The vendor put the bug there.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 99,
+    "quote": "SIMM crosstalk.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 100,
+    "quote": "IRQ dropout",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 101,
+    "quote": "Collapsed Backbone",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 102,
+    "quote": "Power company testing new voltage spike (creation) equipment",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 103,
+    "quote": "operators on strike due to broken coffee machine",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 104,
+    "quote": "backup tape overwritten with copy of system manager's favourite CD",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 105,
+    "quote": "UPS interrupted the server's power",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 106,
+    "quote": "The electrician didn't know what the yellow cable was so he yanked the ethernet out.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 107,
+    "quote": "The keyboard isn't plugged in",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 108,
+    "quote": "The air conditioning water supply pipe ruptured over the machine room",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 109,
+    "quote": "The electricity substation in the car park blew up.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 110,
+    "quote": "The rolling stones concert down the road caused a brown out",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 111,
+    "quote": "The salesman drove over the CPU board.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 112,
+    "quote": "The monitor is plugged into the serial port",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 113,
+    "quote": "Root nameservers are out of sync",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 114,
+    "quote": "electro-magnetic pulses from French above ground nuke testing.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 115,
+    "quote": "your keyboard's space bar is generating spurious keycodes.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 116,
+    "quote": "the real ttys became pseudo ttys and vice-versa.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 117,
+    "quote": "the printer thinks its a router.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 118,
+    "quote": "the router thinks its a printer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 119,
+    "quote": "evil hackers from Serbia.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 120,
+    "quote": "we just switched to FDDI.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 121,
+    "quote": "halon system went off and killed the operators.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 122,
+    "quote": "because Bill Gates is a Jehovah's witness and so nothing can work on St. Swithin's day.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 123,
+    "quote": "user to computer ratio too high.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 124,
+    "quote": "user to computer ration too low.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 125,
+    "quote": "we just switched to Sprint.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 126,
+    "quote": "it has Intel Inside",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 127,
+    "quote": "Sticky bits on disk.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 128,
+    "quote": "Power Company having EMP problems with their reactor",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 129,
+    "quote": "The ring needs another token",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 130,
+    "quote": "new management",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 131,
+    "quote": "telnet: Unable to connect to remote host: Connection refused",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 132,
+    "quote": "SCSI Chain overterminated",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 133,
+    "quote": "It's not plugged in.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 134,
+    "quote": "because of network lag due to too many people playing deathmatch",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 135,
+    "quote": "You put the disk in upside down.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 136,
+    "quote": "Daemons loose in system.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 137,
+    "quote": "User was distributing pornography on server; system seized by FBI.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 138,
+    "quote": "BNC (brain not connected)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 139,
+    "quote": "UBNC (user brain not connected)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 140,
+    "quote": "LBNC (luser brain not connected)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 141,
+    "quote": "disks spinning backwards - toggle the hemisphere jumper.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 142,
+    "quote": "new guy cross-connected phone lines with ac power bus.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 143,
+    "quote": "had to use hammer to free stuck disk drive heads.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 144,
+    "quote": "Too few computrons available.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 145,
+    "quote": "Flat tire on station wagon with tapes.  (\"Never underestimate the bandwidth of a station wagon full of tapes hurling down the highway\" Andrew S. Tannenbaum)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 146,
+    "quote": "Communications satellite used by the military for star wars.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 147,
+    "quote": "Party-bug in the Aloha protocol.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 148,
+    "quote": "Insert coin for new game",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 149,
+    "quote": "Dew on the telephone lines.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 150,
+    "quote": "Arcserve crashed the server again.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 151,
+    "quote": "Some one needed the powerstrip, so they pulled the switch plug.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 152,
+    "quote": "My pony-tail hit the on/off switch on the power strip.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 153,
+    "quote": "Big to little endian conversion error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 154,
+    "quote": "You can tune a file system, but you can't tune a fish (from most tunefs man pages)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 155,
+    "quote": "Dumb terminal",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 156,
+    "quote": "Zombie processes haunting the computer",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 157,
+    "quote": "Incorrect time synchronization",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 158,
+    "quote": "Defunct processes",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 159,
+    "quote": "Stubborn processes",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 160,
+    "quote": "non-redundant fan failure",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 161,
+    "quote": "monitor VLF leakage",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 162,
+    "quote": "bugs in the RAID",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 163,
+    "quote": "no \"any\" key on keyboard",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 164,
+    "quote": "root rot",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 165,
+    "quote": "Backbone Scoliosis",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 166,
+    "quote": "/pub/lunch",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 167,
+    "quote": "excessive collisions & not enough packet ambulances",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 168,
+    "quote": "le0: no carrier: transceiver cable problem?",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 169,
+    "quote": "broadcast packets on wrong frequency",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 170,
+    "quote": "popper unable to process jumbo kernel",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 171,
+    "quote": "NOTICE: alloc: /dev/null: filesystem full",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 172,
+    "quote": "pseudo-user on a pseudo-terminal",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 173,
+    "quote": "Recursive traversal of loopback mount points",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 174,
+    "quote": "Backbone adjustment",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 175,
+    "quote": "OS swapped to disk",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 176,
+    "quote": "vapors from evaporating sticky-note adhesives",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 177,
+    "quote": "sticktion",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 178,
+    "quote": "short leg on process table",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 179,
+    "quote": "multicasts on broken packets",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 180,
+    "quote": "ether leak",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 181,
+    "quote": "Atilla the Hub",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 182,
+    "quote": "endothermal recalibration",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 183,
+    "quote": "filesystem not big enough for Jumbo Kernel Patch",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 184,
+    "quote": "loop found in loop in redundant loopback",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 185,
+    "quote": "system consumed all the paper for paging",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 186,
+    "quote": "permission denied",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 187,
+    "quote": "Reformatting Page. Wait...",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 188,
+    "quote": "..disk or the processor is on fire.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 189,
+    "quote": "SCSI's too wide.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 190,
+    "quote": "Proprietary Information.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 191,
+    "quote": "Just type 'mv * /dev/null'.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 192,
+    "quote": "runaway cat on system.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 193,
+    "quote": "Did you pay the new Support Fee?",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 194,
+    "quote": "We only support a 1200 bps connection.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 195,
+    "quote": "We only support a 28000 bps connection.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 196,
+    "quote": "Me no internet, only janitor, me just wax floors.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 197,
+    "quote": "I'm sorry a pentium won't do, you need an SGI to connect with us.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 198,
+    "quote": "Post-it Note Sludge leaked into the monitor.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 199,
+    "quote": "the curls in your keyboard cord are losing electricity.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 200,
+    "quote": "The monitor needs another box of pixels.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 201,
+    "quote": "RPC_PMAP_FAILURE",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 202,
+    "quote": "kernel panic: write-only-memory (/dev/wom0) capacity exceeded.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 203,
+    "quote": "Write-only-memory subsystem too slow for this machine. Contact your local dealer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 204,
+    "quote": "Just pick up the phone and give modem connect sounds. \"Well you said we should get more lines so we don't have voice lines.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 205,
+    "quote": "Quantum dynamics are affecting the transistors",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 206,
+    "quote": "Police are examining all internet packets in the search for a narco-net-trafficker",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 207,
+    "quote": "We are currently trying a new concept of using a live mouse.  Unfortunately, one has yet to survive being hooked up to the computer.....please bear with us.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 208,
+    "quote": "Your mail is being routed through Germany ... and they're censoring us.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 209,
+    "quote": "Only people with names beginning with 'A' are getting mail this week (a la Microsoft)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 210,
+    "quote": "We didn't pay the Internet bill and it's been cut off.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 211,
+    "quote": "Lightning strikes.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 212,
+    "quote": "Of course it doesn't work. We've performed a software upgrade.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 213,
+    "quote": "Change your language to Finnish.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 214,
+    "quote": "Fluorescent lights are generating negative ions. If turning them off doesn't work, take them out and put tin foil on the ends.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 215,
+    "quote": "High nuclear activity in your area.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 216,
+    "quote": "What office are you in? Oh, that one.  Did you know that your building was built over the universities first nuclear research site? And wow, aren't you the lucky one, your office is right over where the core is buried!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 217,
+    "quote": "The MGs ran out of gas.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 218,
+    "quote": "The UPS doesn't have a battery backup.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 219,
+    "quote": "Recursivity.  Call back if it happens again.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 220,
+    "quote": "Someone thought The Big Red Button was a light switch.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 221,
+    "quote": "The mainframe needs to rest.  It's getting old, you know.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 222,
+    "quote": "I'm not sure.  Try calling the Internet's head office -- it's in the book.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 223,
+    "quote": "The lines are all busy (busied out, that is -- why let them in to begin with?).",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 224,
+    "quote": "Jan  9 16:41:27 huber su: 'su root' succeeded for .... on /dev/pts/1",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 225,
+    "quote": "It's those computer people in X {city of world}.  They keep stuffing things up.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 226,
+    "quote": "A star wars satellite accidently blew up the WAN.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 227,
+    "quote": "Fatal error right in front of screen",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 228,
+    "quote": "That function is not currently supported, but Bill Gates assures us it will be featured in the next upgrade.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 229,
+    "quote": "wrong polarity of neutron flow",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 230,
+    "quote": "Lusers learning curve appears to be fractal",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 231,
+    "quote": "We had to turn off that service to comply with the CDA Bill.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 232,
+    "quote": "Ionization from the air-conditioning",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 233,
+    "quote": "TCP/IP UDP alarm threshold is set too low.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 234,
+    "quote": "Someone is broadcasting pygmy packets and the router doesn't know how to deal with them.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 235,
+    "quote": "The new frame relay network hasn't bedded down the software loop transmitter yet.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 236,
+    "quote": "Fanout dropping voltage too much, try cutting some of those little traces",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 237,
+    "quote": "Plate voltage too low on demodulator tube",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 238,
+    "quote": "You did wha... oh _dear_....",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 239,
+    "quote": "CPU needs bearings repacked",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 240,
+    "quote": "Too many little pins on CPU confusing it, bend back and forth until 10-20% are neatly removed. Do _not_ leave metal bits visible!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 241,
+    "quote": "_Rosin_ core solder? But...",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 242,
+    "quote": "Software uses US measurements, but the OS is in metric...",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 243,
+    "quote": "The computer fleetly, mouse and all.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 244,
+    "quote": "Your cat tried to eat the mouse.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 245,
+    "quote": "The Borg tried to assimilate your system. Resistance is futile.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 246,
+    "quote": "It must have been the lightning storm we had (yesterday) (last week) (last month)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 247,
+    "quote": "Due to Federal Budget problems we have been forced to cut back on the number of users able to access the system at one time. (namely none allowed....)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 248,
+    "quote": "Too much radiation coming from the soil.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 249,
+    "quote": "Unfortunately we have run out of bits/bytes/whatever. Don't worry, the next supply will be coming next week.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 250,
+    "quote": "Program load too heavy for processor to lift.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 251,
+    "quote": "Processes running slowly due to weak power supply",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 252,
+    "quote": "Our ISP is having {switching,routing,SMDS,frame relay} problems",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 253,
+    "quote": "We've run out of licenses",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 254,
+    "quote": "Interference from lunar radiation",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 255,
+    "quote": "Standing room only on the bus.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 256,
+    "quote": "You need to install an RTFM interface.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 257,
+    "quote": "That would be because the software doesn't work.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 258,
+    "quote": "That's easy to fix, but I can't be bothered.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 259,
+    "quote": "Someone's tie is caught in the printer, and if anything else gets printed, he'll be in it too.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 260,
+    "quote": "We're upgrading /dev/null",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 261,
+    "quote": "The Usenet news is out of date",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 262,
+    "quote": "Our POP server was kidnapped by a weasel.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 263,
+    "quote": "It's stuck in the Web.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 264,
+    "quote": "Your modem doesn't speak English.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 265,
+    "quote": "The mouse escaped.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 266,
+    "quote": "All of the packets are empty.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 267,
+    "quote": "The UPS is on strike.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 268,
+    "quote": "Neutrino overload on the nameserver",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 269,
+    "quote": "Melting hard drives",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 270,
+    "quote": "Someone has messed up the kernel pointers",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 271,
+    "quote": "The kernel license has expired",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 272,
+    "quote": "Netscape has crashed",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 273,
+    "quote": "The cord jumped over and hit the power switch.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 274,
+    "quote": "It was OK before you touched it.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 275,
+    "quote": "Bit rot",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 276,
+    "quote": "U.S. Postal Service",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 277,
+    "quote": "Your Flux Capacitor has gone bad.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 278,
+    "quote": "The Dilithium Crystals need to be rotated.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 279,
+    "quote": "The static electricity routing is acting up...",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 280,
+    "quote": "Traceroute says that there is a routing problem in the backbone.  It's not our problem.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 281,
+    "quote": "The co-locator cannot verify the frame-relay gateway to the ISDN server.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 282,
+    "quote": "High altitude condensation from U.S.A.F prototype aircraft has contaminated the primary subnet mask. Turn off your computer for 9 days to avoid damaging it.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 283,
+    "quote": "Lawn mower blade in your fan need sharpening",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 284,
+    "quote": "Electrons on a bender",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 285,
+    "quote": "Telecommunications is upgrading.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 286,
+    "quote": "Telecommunications is downgrading.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 287,
+    "quote": "Telecommunications is downshifting.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 288,
+    "quote": "Hard drive sleeping. Let it wake up on it's own...",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 289,
+    "quote": "Interference between the keyboard and the chair.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 290,
+    "quote": "The CPU has shifted, and become decentralized.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 291,
+    "quote": "Due to the CDA, we no longer have a root account.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 292,
+    "quote": "We ran out of dial tone and we're and waiting for the phone company to deliver another bottle.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 293,
+    "quote": "You must've hit the wrong any key.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 294,
+    "quote": "PCMCIA slave driver",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 295,
+    "quote": "The Token fell out of the ring. Call us when you find it.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 296,
+    "quote": "The hardware bus needs a new token.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 297,
+    "quote": "Too many interrupts",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 298,
+    "quote": "Not enough interrupts",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 299,
+    "quote": "The data on your hard drive is out of balance.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 300,
+    "quote": "Digital Manipulator exceeding velocity parameters",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 301,
+    "quote": "appears to be a Slow/Narrow SCSI-0 Interface problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 302,
+    "quote": "microelectronic Riemannian curved-space fault in write-only file system",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 303,
+    "quote": "fractal radiation jamming the backbone",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 304,
+    "quote": "routing problems on the neural net",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 305,
+    "quote": "IRQ-problems with the Un-Interruptible-Power-Supply",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 306,
+    "quote": "CPU-angle has to be adjusted because of vibrations coming from the nearby road",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 307,
+    "quote": "emissions from GSM-phones",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 308,
+    "quote": "CD-ROM server needs recalibration",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 309,
+    "quote": "firewall needs cooling",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 310,
+    "quote": "asynchronous inode failure",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 311,
+    "quote": "transient bus protocol violation",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 312,
+    "quote": "incompatible bit-registration operators",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 313,
+    "quote": "your process is not ISO 9000 compliant",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 314,
+    "quote": "You need to upgrade your VESA local bus to a MasterCard local bus.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 315,
+    "quote": "The recent proliferation of Nuclear Testing",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 316,
+    "quote": "Elves on strike. (Why do they call EMAG Elf Magic)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 317,
+    "quote": "Internet exceeded Luser level, please wait until a luser logs off before attempting to log back on.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 318,
+    "quote": "Your EMAIL is now being delivered by the USPS.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 319,
+    "quote": "Your computer hasn't been returning all the bits it gets from the Internet.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 320,
+    "quote": "You've been infected by the Telescoping Hubble virus.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 321,
+    "quote": "Scheduled global CPU outage",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 322,
+    "quote": "Your Pentium has a heating problem - try cooling it with ice cold water.(Do not turn of your computer, you do not want to cool down the Pentium Chip while he isn't working, do you?)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 323,
+    "quote": "Your processor has processed too many instructions.  Turn it off immediately, do not type any commands!!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 324,
+    "quote": "Your packets were eaten by the terminator",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 325,
+    "quote": "Your processor does not develop enough heat.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 326,
+    "quote": "We need a licensed electrician to replace the light bulbs in the computer room.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 327,
+    "quote": "The POP server is out of Coke",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 328,
+    "quote": "Fiber optics caused gas main leak",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 329,
+    "quote": "Server depressed, needs Prozac",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 330,
+    "quote": "quantum decoherence",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 331,
+    "quote": "those damn raccoons!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 332,
+    "quote": "suboptimal routing experience",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 333,
+    "quote": "A plumber is needed, the network drain is clogged",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 334,
+    "quote": "50% of the manual is in .pdf readme files",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 335,
+    "quote": "the AA battery in the wallclock sends magnetic interference",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 336,
+    "quote": "the xy axis in the trackball is coordinated with the summer solstice",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 337,
+    "quote": "the butane lighter causes the pincushioning",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 338,
+    "quote": "old inkjet cartridges emanate barium-based fumes",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 339,
+    "quote": "manager in the cable duct",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 340,
+    "quote": "Well fix that in the next (upgrade, update, patch release, service pack).",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 341,
+    "quote": "HTTPD Error 666 : BOFH was here",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 342,
+    "quote": "HTTPD Error 4004 : very old Intel cpu - insufficient processing power",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 343,
+    "quote": "The ATM board has run out of 10 pound notes.  We are having a whip round to refill it, care to contribute ?",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 344,
+    "quote": "Network failure -  call NBC",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 345,
+    "quote": "Having to manually track the satellite.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 346,
+    "quote": "Your/our computer(s) had suffered a memory leak, and we are waiting for them to be topped up.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 347,
+    "quote": "The rubber band broke",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 348,
+    "quote": "We're on Token Ring, and it looks like the token got loose.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 349,
+    "quote": "Stray Alpha Particles from memory packaging caused Hard Memory Error on Server.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 350,
+    "quote": "paradigm shift...without a clutch",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 351,
+    "quote": "PEBKAC (Problem Exists Between Keyboard And Chair)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 352,
+    "quote": "The cables are not the same length.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 353,
+    "quote": "Second-system effect.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 354,
+    "quote": "Chewing gum on /dev/sd3c",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 355,
+    "quote": "Boredom in the Kernel.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 356,
+    "quote": "the daemons! the daemons! the terrible daemons!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 357,
+    "quote": "I'd love to help you -- it's just that the Boss won't let me near the computer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 358,
+    "quote": "struck by the Good Times virus",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 359,
+    "quote": "YOU HAVE AN I/O ERROR -> Incompetent Operator error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 360,
+    "quote": "Your parity check is overdrawn and you're out of cache.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 361,
+    "quote": "Communist revolutionaries taking over the server room and demanding all the computers in the building or they shoot the sysadmin. Poor misguided fools.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 362,
+    "quote": "Plasma conduit breach",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 363,
+    "quote": "Out of cards on drive D:",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 364,
+    "quote": "Sand fleas eating the Internet cables",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 365,
+    "quote": "parallel processors running perpendicular today",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 366,
+    "quote": "ATM cell has no roaming feature turned on, notebooks can't connect",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 367,
+    "quote": "Webmasters kidnapped by evil cult.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 368,
+    "quote": "Failure to adjust for daylight savings time.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 369,
+    "quote": "Virus transmitted from computer to sysadmins.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 370,
+    "quote": "Virus due to computers having unsafe sex.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 371,
+    "quote": "Incorrectly configured static routes on the corerouters.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 372,
+    "quote": "Forced to support NT servers; sysadmins quit.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 373,
+    "quote": "Suspicious pointer corrupted virtual machine",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 374,
+    "quote": "It's the InterNIC's fault.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 375,
+    "quote": "Root name servers corrupted.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 376,
+    "quote": "Budget cuts forced us to sell all the power cords for the servers.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 377,
+    "quote": "Someone hooked the twisted pair wires into the answering machine.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 378,
+    "quote": "Operators killed by year 2000 bug bite.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 379,
+    "quote": "We've picked COBOL as the language of choice.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 380,
+    "quote": "Operators killed when huge stack of backup tapes fell over.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 381,
+    "quote": "Robotic tape changer mistook operator's tie for a backup tape.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 382,
+    "quote": "Someone was smoking in the computer room and set off the halon systems.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 383,
+    "quote": "Your processor has taken a ride to Heaven's Gate on the UFO behind Hale-Bopp's comet.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 384,
+    "quote": "it's an ID-10-T error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 385,
+    "quote": "Dyslexics retyping hosts file on servers",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 386,
+    "quote": "The Internet is being scanned for viruses.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 387,
+    "quote": "Your computer's union contract is set to expire at midnight.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 388,
+    "quote": "Bad user karma.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 389,
+    "quote": "/dev/clue was linked to /dev/null",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 390,
+    "quote": "Increased sunspot activity.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 391,
+    "quote": "We already sent around a notice about that.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 392,
+    "quote": "It's union rules. There's nothing we can do about it. Sorry.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 393,
+    "quote": "Interference from the Van Allen Belt.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 394,
+    "quote": "Jupiter is aligned with Mars.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 395,
+    "quote": "Redundant ACLs.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 396,
+    "quote": "Mail server hit by UniSpammer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 397,
+    "quote": "T-1's congested due to porn traffic to the news server.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 398,
+    "quote": "Data for intranet got routed through the extranet and landed on the internet.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 399,
+    "quote": "We are a 100% Microsoft Shop.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 400,
+    "quote": "We are Microsoft.  What you are experiencing is not a problem; it is an undocumented feature.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 401,
+    "quote": "Sales staff sold a product we don't offer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 402,
+    "quote": "Secretary sent chain letter to all 5000 employees.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 403,
+    "quote": "Sysadmin didn't hear pager go off due to loud music from bar-room speakers.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 404,
+    "quote": "Sysadmin accidentally destroyed pager with a large hammer.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 405,
+    "quote": "Sysadmins unavailable because they are in a meeting talking about why they are unavailable so much.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 406,
+    "quote": "Bad cafeteria food landed all the sysadmins in the hospital.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 407,
+    "quote": "Route flapping at the NAP.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 408,
+    "quote": "Computers under water due to SYN flooding.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 409,
+    "quote": "The vulcan-death-grip ping has been applied.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 410,
+    "quote": "Electrical conduits in machine room are melting.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 411,
+    "quote": "Traffic jam on the Information Superhighway.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 412,
+    "quote": "Radial Telemetry Infiltration",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 413,
+    "quote": "Cow-tippers tipped a cow onto the server.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 414,
+    "quote": "tachyon emissions overloading the system",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 415,
+    "quote": "Maintenance window broken",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 416,
+    "quote": "We're out of slots on the server",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 417,
+    "quote": "Computer room being moved.  Our systems are down for the weekend.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 418,
+    "quote": "Sysadmins busy fighting SPAM.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 419,
+    "quote": "Repeated reboots of the system failed to solve problem",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 420,
+    "quote": "Feature was not beta tested",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 421,
+    "quote": "Domain controller not responding",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 422,
+    "quote": "Someone else stole your IP address, call the Internet detectives!",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 423,
+    "quote": "It's not RFC-822 compliant.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 424,
+    "quote": "operation failed because: there is no message for this error (#1014)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 425,
+    "quote": "stop bit received",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 426,
+    "quote": "internet is needed to catch the etherbunny",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 427,
+    "quote": "network down, IP packets delivered via UPS",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 428,
+    "quote": "Firmware update in the coffee machine",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 429,
+    "quote": "Temporal anomaly",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 430,
+    "quote": "Mouse has out-of-cheese-error",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 431,
+    "quote": "Borg implants are failing",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 432,
+    "quote": "Borg nanites have infested the server",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 433,
+    "quote": "error: one bad user found in front of screen",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 434,
+    "quote": "Please state the nature of the technical emergency",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 435,
+    "quote": "Internet shut down due to maintenance",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 436,
+    "quote": "Daemon escaped from pentagram",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 437,
+    "quote": "crop circles in the corn shell",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 438,
+    "quote": "sticky bit has come loose",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 439,
+    "quote": "Hot Java has gone cold",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 440,
+    "quote": "Cache miss - please take better aim next time",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 441,
+    "quote": "Hash table has woodworm",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 442,
+    "quote": "Trojan horse ran out of hay",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 443,
+    "quote": "Zombie processes detected, machine is haunted.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 444,
+    "quote": "overflow error in /dev/null",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 445,
+    "quote": "Browser's cookie is corrupted -- someone's been nibbling on it.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 446,
+    "quote": "Mailer-daemon is busy burning your message in hell.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 447,
+    "quote": "According to Microsoft, it's by design",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 448,
+    "quote": "vi needs to be upgraded to vii",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 449,
+    "quote": "greenpeace free'd the mallocs",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 450,
+    "quote": "Terrorists crashed an airplane into the server room, have to remove /bin/laden. (rm -rf /bin/laden)",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 451,
+    "quote": "astropneumatic oscillations in the water-cooling",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 452,
+    "quote": "Somebody ran the operating system through a spelling checker.",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  },
+  {
+    "id": 453,
+    "quote": "Spider infestation in warm case parts",
+    "source": "http://pages.cs.wisc.edu/~ballard/bofh/",
+    "date": "2021-01-12"
+  }
+]

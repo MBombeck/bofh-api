@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Not Found | BOFH Excuses API</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-family: var(--font-mono);
+      font-size: clamp(5rem, 15vw, 8rem);
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1;
+      margin-bottom: 1rem;
+      letter-spacing: -0.04em;
+    }
+    .error-title {
+      font-family: var(--font-mono);
+      font-size: clamp(1.125rem, 3vw, 1.5rem);
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+    .error-excuse {
+      font-family: var(--font-mono);
+      font-size: 0.875rem;
+      color: var(--accent);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.75rem 1.25rem;
+      display: inline-block;
+      margin-bottom: 2rem;
+      max-width: 480px;
+    }
+    .error-excuse::before {
+      content: '> ';
+      color: var(--text-dim);
+    }
+    .error-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+    }
+    .error-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .error-links a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <div>
+      <div class="error-code">404</div>
+      <div class="error-title">This endpoint doesn't exist.</div>
+      <div class="error-excuse" id="excuse"></div>
+      <div class="error-links">
+        <a href="/">Home</a>
+        <a href="/#api-docs">API Docs</a>
+        <a href="/v1/excuses/random">Random Excuse</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    var excuses = [
+      "Solar flares",
+      "Clock speed insufficient for this operation",
+      "Conditions beyond our control",
+      "Someone turned off the server room air conditioner",
+      "The UPS doesn't have a battery backup",
+      "Route packets not guaranteed to survive volcanic eruption",
+      "We ran out of dial tone and had to order more",
+      "Electromagnetic energy loss due to� the greenhouse effect",
+      "The vendor sent the wrong programming manual",
+      "Recursive traversal of loopback mount points"
+    ];
+    document.getElementById('excuse').textContent = excuses[Math.floor(Math.random() * excuses.length)];
+  </script>
+</body>
+</html>

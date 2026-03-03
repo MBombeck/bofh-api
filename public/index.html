@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOFH Excuses API — 453 Classic IT Excuses</title>
+  <meta name="description" content="Free JSON API serving 453 classic Bastard Operator From Hell (BOFH) excuses. No auth required. Perfect for Slack bots, CLI tools, and developer humor.">
+  <meta name="keywords" content="BOFH, API, excuses, IT humor, sysadmin, bastard operator from hell, JSON API, developer tools">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://bofh.bombeck.io/">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BOFH Excuses API">
+  <meta property="og:description" content="453 classic BOFH excuses as a free JSON API. No auth required.">
+  <meta property="og:url" content="https://bofh.bombeck.io/">
+  <meta property="og:site_name" content="BOFH Excuses API">
+  <meta property="og:image" content="https://bofh.bombeck.io/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BOFH Excuses API">
+  <meta name="twitter:description" content="453 classic BOFH excuses as a free JSON API. No auth required.">
+  <meta name="twitter:image" content="https://bofh.bombeck.io/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebAPI",
+    "name": "BOFH Excuses API",
+    "description": "Free JSON API serving 453 classic Bastard Operator From Hell (BOFH) excuses",
+    "url": "https://bofh.bombeck.io",
+    "documentation": "https://bofh.bombeck.io/#api-docs",
+    "provider": {
+      "@type": "Person",
+      "name": "Marc Bombeck",
+      "url": "https://github.com/MBombeck"
+    },
+    "termsOfService": "https://bofh.bombeck.io/",
+    "license": "https://opensource.org/licenses/MIT"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <p class="hero-label">Free JSON API &middot; No Auth Required</p>
+      <h1>BOFH Excuses API</h1>
+      <p class="hero-tagline">453 classic Bastard Operator From Hell excuses.<br>One endpoint. Instant nonsense.</p>
+
+      <div class="hero-excuse">
+        <div class="hero-excuse-header">
+          <span class="hero-excuse-label">GET /v1/excuses/random</span>
+          <button class="btn btn-sm" id="new-excuse-btn" aria-label="Get a new random excuse">New Excuse</button>
+        </div>
+        <pre class="hero-excuse-output"><code id="hero-excuse-code">{
+  "data": [{ "id": 42, "quote": "Solar flares" }],
+  "error": null
+}</code></pre>
+      </div>
+    </div>
+  </header>
+
+  <!-- Terminal -->
+  <section class="section" id="terminal">
+    <div class="container">
+      <h2>Try it</h2>
+      <p class="section-desc">Interactive terminal. Type <code>help</code> for available commands.</p>
+
+      <div class="terminal" role="application" aria-label="Interactive API terminal">
+        <div class="terminal-chrome">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="terminal-title">bofh-api</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-output" id="terminal-output">
+            <div class="terminal-line terminal-welcome">Welcome to the BOFH Excuses API. Type <span class="t-accent">help</span> for commands.</div>
+          </div>
+          <div class="terminal-input-line">
+            <span class="terminal-prompt">$</span>
+            <input
+              type="text"
+              class="terminal-input"
+              id="terminal-input"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+              aria-label="Terminal command input"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- API Docs -->
+  <section class="section" id="api-docs">
+    <div class="container">
+      <h2>API Reference</h2>
+      <p class="section-desc">Base URL: <code>https://bofh.bombeck.io</code></p>
+
+      <!-- Random -->
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method">GET</span>
+          <code class="endpoint-path">/v1/excuses/random</code>
+        </div>
+        <p class="endpoint-desc">Returns one random excuse.</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Request</span>
+            <button class="copy-btn" aria-label="Copy to clipboard" data-copy="curl https://bofh.bombeck.io/v1/excuses/random">Copy</button>
+          </div>
+          <pre><code>curl https://bofh.bombeck.io/v1/excuses/random</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Response</span></div>
+          <pre><code class="json">{
+  <span class="t-key">"data"</span>: [{ <span class="t-key">"id"</span>: <span class="t-num">42</span>, <span class="t-key">"quote"</span>: <span class="t-str">"Solar flares"</span>, <span class="t-key">"source"</span>: <span class="t-str">"..."</span>, <span class="t-key">"date"</span>: <span class="t-str">"..."</span> }],
+  <span class="t-key">"error"</span>: <span class="t-null">null</span>
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- Random N -->
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method">GET</span>
+          <code class="endpoint-path">/v1/excuses/random/:count</code>
+        </div>
+        <p class="endpoint-desc">Returns up to <code>count</code> random excuses (1&ndash;50).</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Request</span>
+            <button class="copy-btn" aria-label="Copy to clipboard" data-copy="curl https://bofh.bombeck.io/v1/excuses/random/3">Copy</button>
+          </div>
+          <pre><code>curl https://bofh.bombeck.io/v1/excuses/random/3</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Response</span></div>
+          <pre><code class="json">{
+  <span class="t-key">"data"</span>: [
+    { <span class="t-key">"id"</span>: <span class="t-num">112</span>, <span class="t-key">"quote"</span>: <span class="t-str">"Static buildup ..."</span>, <span class="t-key">"source"</span>: <span class="t-str">"..."</span>, <span class="t-key">"date"</span>: <span class="t-str">"..."</span> },
+    { <span class="t-key">"id"</span>: <span class="t-num">7</span>, <span class="t-key">"quote"</span>: <span class="t-str">"Cosmic rays"</span>, <span class="t-key">"source"</span>: <span class="t-str">"..."</span>, <span class="t-key">"date"</span>: <span class="t-str">"..."</span> },
+    { <span class="t-key">"id"</span>: <span class="t-num">301</span>, <span class="t-key">"quote"</span>: <span class="t-str">"The server ..."</span>, <span class="t-key">"source"</span>: <span class="t-str">"..."</span>, <span class="t-key">"date"</span>: <span class="t-str">"..."</span> }
+  ],
+  <span class="t-key">"error"</span>: <span class="t-null">null</span>
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- By ID -->
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method">GET</span>
+          <code class="endpoint-path">/v1/excuses/id/:id</code>
+        </div>
+        <p class="endpoint-desc">Returns a specific excuse by ID (1&ndash;453).</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Request</span>
+            <button class="copy-btn" aria-label="Copy to clipboard" data-copy="curl https://bofh.bombeck.io/v1/excuses/id/42">Copy</button>
+          </div>
+          <pre><code>curl https://bofh.bombeck.io/v1/excuses/id/42</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Response</span></div>
+          <pre><code class="json">{
+  <span class="t-key">"data"</span>: { <span class="t-key">"id"</span>: <span class="t-num">42</span>, <span class="t-key">"quote"</span>: <span class="t-str">"Solar flares"</span>, <span class="t-key">"source"</span>: <span class="t-str">"..."</span>, <span class="t-key">"date"</span>: <span class="t-str">"..."</span> },
+  <span class="t-key">"error"</span>: <span class="t-null">null</span>
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- All -->
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method">GET</span>
+          <code class="endpoint-path">/v1/excuses/all</code>
+        </div>
+        <p class="endpoint-desc">Returns all 453 excuses.</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Request</span>
+            <button class="copy-btn" aria-label="Copy to clipboard" data-copy="curl https://bofh.bombeck.io/v1/excuses/all">Copy</button>
+          </div>
+          <pre><code>curl https://bofh.bombeck.io/v1/excuses/all</code></pre>
+        </div>
+      </div>
+
+      <!-- Health -->
+      <div class="endpoint">
+        <div class="endpoint-header">
+          <span class="method">GET</span>
+          <code class="endpoint-path">/health</code>
+        </div>
+        <p class="endpoint-desc">Health check. Returns API status and uptime.</p>
+        <div class="code-block">
+          <div class="code-header">
+            <span>Response</span>
+          </div>
+          <pre><code class="json">{
+  <span class="t-key">"data"</span>: { <span class="t-key">"status"</span>: <span class="t-str">"ok"</span>, <span class="t-key">"version"</span>: <span class="t-str">"3.0.0"</span>, <span class="t-key">"uptime"</span>: <span class="t-num">86400</span> },
+  <span class="t-key">"error"</span>: <span class="t-null">null</span>
+}</code></pre>
+        </div>
+      </div>
+
+      <!-- Rate Limiting -->
+      <div class="info-card">
+        <h3>Rate Limiting</h3>
+        <p>1,000 requests per 15 minutes per IP. Standard <code>RateLimit-*</code> headers are included in all responses. The <code>/health</code> endpoint is excluded.</p>
+      </div>
+
+      <!-- Errors -->
+      <div class="info-card">
+        <h3>Errors</h3>
+        <p>All errors follow the same envelope format:</p>
+        <div class="code-block">
+          <pre><code class="json">{ <span class="t-key">"data"</span>: <span class="t-null">null</span>, <span class="t-key">"error"</span>: <span class="t-str">"not found"</span> }</code></pre>
+        </div>
+        <table class="error-table">
+          <thead><tr><th>Status</th><th>Meaning</th></tr></thead>
+          <tbody>
+            <tr><td>400</td><td>Invalid parameters</td></tr>
+            <tr><td>404</td><td>Not found</td></tr>
+            <tr><td>429</td><td>Rate limit exceeded</td></tr>
+            <tr><td>500</td><td>Internal error</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Start -->
+  <section class="section" id="quickstart">
+    <div class="container">
+      <h2>Quick Start</h2>
+      <p class="section-desc">Get a random excuse in your language of choice.</p>
+
+      <div class="tabs" role="tablist">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="curl">curl</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="javascript">JavaScript</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="python">Python</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="go">Go</button>
+      </div>
+
+      <div class="tab-panels">
+        <div class="tab-panel active" id="panel-curl" role="tabpanel">
+          <div class="code-block">
+            <div class="code-header">
+              <span>curl</span>
+              <button class="copy-btn" aria-label="Copy to clipboard" data-copy='curl -s https://bofh.bombeck.io/v1/excuses/random | jq .'>Copy</button>
+            </div>
+            <pre><code>curl -s https://bofh.bombeck.io/v1/excuses/random | jq .</code></pre>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-javascript" role="tabpanel">
+          <div class="code-block">
+            <div class="code-header">
+              <span>JavaScript</span>
+              <button class="copy-btn" aria-label="Copy to clipboard" data-copy='const res = await fetch("https://bofh.bombeck.io/v1/excuses/random");
+const { data } = await res.json();
+console.log(data[0].quote);'>Copy</button>
+            </div>
+            <pre><code><span class="t-key">const</span> res = <span class="t-key">await</span> <span class="t-fn">fetch</span>(<span class="t-str">"https://bofh.bombeck.io/v1/excuses/random"</span>);
+<span class="t-key">const</span> { data } = <span class="t-key">await</span> res.<span class="t-fn">json</span>();
+console.<span class="t-fn">log</span>(data[<span class="t-num">0</span>].quote);</code></pre>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-python" role="tabpanel">
+          <div class="code-block">
+            <div class="code-header">
+              <span>Python</span>
+              <button class="copy-btn" aria-label="Copy to clipboard" data-copy='import requests
+
+r = requests.get("https://bofh.bombeck.io/v1/excuses/random")
+quote = r.json()["data"][0]["quote"]
+print(quote)'>Copy</button>
+            </div>
+            <pre><code><span class="t-key">import</span> requests
+
+r = requests.<span class="t-fn">get</span>(<span class="t-str">"https://bofh.bombeck.io/v1/excuses/random"</span>)
+quote = r.<span class="t-fn">json</span>()[<span class="t-str">"data"</span>][<span class="t-num">0</span>][<span class="t-str">"quote"</span>]
+<span class="t-fn">print</span>(quote)</code></pre>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-go" role="tabpanel">
+          <div class="code-block">
+            <div class="code-header">
+              <span>Go</span>
+              <button class="copy-btn" aria-label="Copy to clipboard" data-copy='resp, err := http.Get("https://bofh.bombeck.io/v1/excuses/random")
+if err != nil {
+    log.Fatal(err)
+}
+defer resp.Body.Close()
+body, _ := io.ReadAll(resp.Body)
+fmt.Println(string(body))'>Copy</button>
+            </div>
+            <pre><code>resp, err := http.<span class="t-fn">Get</span>(<span class="t-str">"https://bofh.bombeck.io/v1/excuses/random"</span>)
+<span class="t-key">if</span> err != <span class="t-null">nil</span> {
+    log.<span class="t-fn">Fatal</span>(err)
+}
+<span class="t-key">defer</span> resp.Body.<span class="t-fn">Close</span>()
+body, _ := io.<span class="t-fn">ReadAll</span>(resp.Body)
+fmt.<span class="t-fn">Println</span>(<span class="t-fn">string</span>(body))</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>Built by <a href="https://github.com/MBombeck" target="_blank" rel="noopener">Marc Bombeck</a></p>
+        <div class="footer-links">
+          <a href="https://github.com/MBombeck/bofh-api" target="_blank" rel="noopener" aria-label="GitHub Repository">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+      <p class="footer-credits">Excuses by Simon Travaglia &amp; Jeff Ballard. MIT Licensed.</p>
+    </div>
+  </footer>
+
+  <script defer src="https://umami.bombeck.io/script.js" data-website-id="b5a6f2e8-fb60-4660-aa9b-6456f177a61c"></script>
+  <script src="/js/terminal.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
