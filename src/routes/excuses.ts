@@ -37,7 +37,12 @@ router.get('/v1/excuses/random', (req, res) => {
 
 // GET /v1/excuses/:id — specific excuse by ID
 router.get('/v1/excuses/:id', (req, res) => {
-  const id = z.coerce.number().int().min(1).parse(req.params.id);
+  const parsed = Number(req.params.id);
+  if (!Number.isInteger(parsed) || parsed < 1) {
+    res.status(400).json({ data: null, error: { code: 'VALIDATION_ERROR', message: 'id must be a positive integer' }, meta: null });
+    return;
+  }
+  const id = parsed;
   const data = excusesService.getById(id);
   trackEvent({ name: 'excuse_by_id', url: `/v1/excuses/${id}`, data: { id } });
   res.set('Cache-Control', 'public, max-age=86400');
