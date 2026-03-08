@@ -33,6 +33,10 @@ export const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
     statusCode = 400;
     code = 'VALIDATION_ERROR';
     message = err.errors.map((e) => e.path.length ? `${e.path.join('.')}: ${e.message}` : e.message).join(', ');
+  } else if (err instanceof SyntaxError && 'body' in err) {
+    statusCode = 400;
+    code = 'BAD_REQUEST';
+    message = 'invalid JSON body';
   } else {
     statusCode = 500;
     code = 'INTERNAL_ERROR';

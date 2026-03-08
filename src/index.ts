@@ -9,6 +9,10 @@ if (config.SENTRY_DSN) {
     dsn: config.SENTRY_DSN,
     environment: config.NODE_ENV,
     tracesSampleRate: 0.1,
+    beforeSend(event, hint) {
+      if (hint.originalException instanceof SyntaxError) return null;
+      return event;
+    },
   });
 }
 

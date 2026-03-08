@@ -53,9 +53,6 @@ export function createApp(): express.Express {
     origin: config.CORS_ORIGINS === '*' ? '*' : config.CORS_ORIGINS.split(','),
   }));
 
-  // 4. Body parsing
-  app.use(express.json({ limit: '1mb' }));
-
   // 5. Structured logging (skip /health and static assets)
   app.use((pinoHttp as unknown as typeof pinoHttp.default)({
     logger,
