@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { z } from 'zod';
 import { apiKeyAuth } from '../middleware/api-key.js';
 import * as attacksService from '../services/attacks.service.js';
-import { trackEvent } from '../lib/umami.js';
+import { trackEvent } from '../lib/analytics.js';
 
 const router = Router();
 

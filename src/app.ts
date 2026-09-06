@@ -39,11 +39,11 @@ export function createApp(): express.Express {
     contentSecurityPolicy: {
       directives: {
         defaultSrc: ["'self'"],
-        scriptSrc: ["'self'", 'https://umami.bombeck.io', 'https://browser.sentry-cdn.com'],
+        scriptSrc: ["'self'", 'https://rybbit.bombeck.io', 'https://browser.sentry-cdn.com'],
         styleSrc: ["'self'", 'https://fonts.googleapis.com'],
         imgSrc: ["'self'", 'data:'],
         fontSrc: ["'self'", 'https://fonts.gstatic.com'],
-        connectSrc: ["'self'", 'https://umami.bombeck.io', 'https://glitchtip.bombeck.io'],
+        connectSrc: ["'self'", 'https://rybbit.bombeck.io', 'https://glitchtip.bombeck.io'],
       },
     },
   }));
